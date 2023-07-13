@@ -19,10 +19,11 @@ body {
   background-color: var(--background-color);
   font-family: "Gruppo", sans-serif;
   color: #fff;
+  overflow-x: hidden;
 }
-.container {
+/* .container {
   overflow: hidden;
-}
+} */
 .header {
   color: #fff;
   padding: 20px 150px;
@@ -197,10 +198,8 @@ body {
 }
 
 .text-center {
-  font-size: 110px;
   font-family: var(--family);
   letter-spacing: 1px;
-  width: 1050px;
   text-align: center;
   margin: -1.5rem 25rem;
   animation: slide-text 3s ease-in-out;
@@ -213,7 +212,9 @@ body {
     transform: translateX(0);
   }
 }
-
+.paragraph-center P{
+  font-size: 85px;
+}
 .paragraph-center span {
   color: var(--new-orange);
 }
@@ -228,7 +229,7 @@ body {
   height: 150px;
   border-radius: 50%;
   border: 1px solid var(--border);
-  margin: -15em 105em;
+  margin: -15em 97em;
   padding-left: 4em;
   padding-top: 3.5em;
 }
@@ -239,8 +240,8 @@ body {
 /* sub section three*/
 #sub-section-three {
   position: relative;
-  top: 1.3em;
-  left: 95em;
+  top: 5em;
+  left: 88em;
 }
 #sub-section-three span {
   font-family: var(--family);
@@ -254,10 +255,11 @@ body {
 /* second line through */
 .second-line-through {
   position: relative;
-  top: 3.7em;
-  left: 95em;
+  top: 7em;
+  left: 88em;
   width: 80px;
   border: 1px solid var(--border);
+
 }
 
 /* sub section four */
@@ -265,7 +267,7 @@ body {
   line-height: 1.8em;
   position: absolute;
   top: 28em;
-  left: 95em;
+  left: 88em;
   letter-spacing: 1px;
 }
 #sub-section-four span {
@@ -297,7 +299,9 @@ body {
   height: 100px;
   border: 2px solid var(--border);
   border-radius: 10px;
-  margin: 22rem 12.6em;
+  position: relative;
+  top: 27.5em;
+  left: 13em;
 }
 
 .rectangle-circle-1 {
@@ -358,8 +362,9 @@ body {
   height: 100px;
   border-radius: 10px;
   background-color: var(--new-orange);
-  margin-top: -28.2em;
-  margin-left: 26em;
+  position: relative;
+  top: 21.2em;
+  left: 26em;
 }
 .rectangle-circle-2 {
   width: 300px;
@@ -430,8 +435,9 @@ body {
   border: 2px solid var(--border);
   color: #03071e;
   border-radius: 10px;
-  margin-top: -6.2rem;
-  margin-left: 73.5em;
+  position: relative;
+  top: 15em;
+  left: 73.5em;
 }
 .rectangle-circle-3 {
   width: 190px;
@@ -483,8 +489,9 @@ body {
 .container-pics {
   width: 300px;
   height: 100px;
-  margin-top: -6.3em;
-  margin-left: 88em;
+  position: relative;
+  top: 8em;
+  left: 88em;
 }
 
 .picture-one {
@@ -523,9 +530,8 @@ body {
 
 /* container 2 */
 .container-2 {
-  margin-top: 5em;
+  margin-top: 15em;
   margin-left: 13em;
-  overflow: hidden;
 }
 .about {
   display: flex;
