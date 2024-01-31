@@ -16,4 +16,12 @@ user.sayHi = function () {
 console.log(name, age);
 user.sayHi();
 */
-
+const dateAndMonth = document.querySelector(".date-month");
+const specificDate = new Date("2024-01-03");
+const formattedDate = specificDate.toLocaleDateString("en-US", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+dateAndMonth.textContent = formattedDate;

@@ -1,0 +1,91 @@
+/* circle */
+/* .general-circle {
+  overflow: hidden;
+}
+.circle-1 {
+  margin-left: -5em;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+}
+.circle-2 {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background: linear-gradient(to left, #03071e, #6a040f);
+  margin-top: -40em;
+  margin-left: 35.8em;
+}
+.circle-3 {
+  margin-left: 77em;
+  margin-top: -41em;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+} */
+
+/* circle */
+
+.general-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  position: relative;
+}
+.circle {
+  width: 500rem;
+  height: 31.5rem;
+  border-radius: 50%;
+  background: linear-gradient(165deg, #0f0f0f, #4f2117, #302320, #101010);
+}
+.circle:first-child,
+.circle:nth-child(3) {
+  border: 1px solid #f7f7f7;
+  background: none;
+}
+.circle:first-child {
+  margin-left: -5rem;
+}
+
+.circle:nth-child(3) {
+  margin-right: -5rem;
+}
+
+/* circle text */
+.header-text {
+  position: absolute;
+  top: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-text p {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: lighter;
+  font-size: 0.85rem;
+}
+
+.hero-header {
+  font-size: 4.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+.hero-header span {
+  color: #ea512d;
+}
+
+.bolt {
+  font-size: 2.4rem;
+}
+.north-east {
+  border: 1px solid #f7f7f7;
+  padding: 1rem;
+  border-radius: 50%;
+}

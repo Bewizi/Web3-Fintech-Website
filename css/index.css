@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 :root {
-  --background-color: #000000;
+  --background-color: #111111;
   --list-group: #212529;
   --border: #495057;
   --family: "Roboto", sans-serif;
@@ -14,18 +14,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+}
 
 body {
   background-color: var(--background-color);
-  font-family: "Gruppo", sans-serif;
+  font-family: var(--family);
   color: #fff;
   overflow-x: hidden;
 }
+
+.header {
+  max-width: 75rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-weight: lighter;
+  /* border: 1px solid #ccc; */
+}
+
+.network,
+.date-month,
+.login {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.network {
+  padding: 0.25rem 7rem;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  padding: 0.45rem 4rem;
+  background-color: #212121;
+  color: #7b7b7b;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.nav-link li {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link li:hover {
+  color: #fefefe;
+}
+
+.nav-link li:first-child {
+  color: #fefefe;
+}
+.date-month {
+  padding: 0.45rem 2rem;
+}
+.login {
+  display: flex;
+  padding: 0.45rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
 /* .container {
   overflow: hidden;
-} */
-.header {
-  color: #fff;
+  .header {
+    color: #fff;
   padding: 20px 150px;
   margin-top: 2rem;
 }
@@ -94,7 +154,9 @@ body {
   font-weight: 900;
 }
 
-/* circle */
+} */
+
+/* circle
 .general-circle {
   overflow: hidden;
 }
@@ -140,8 +202,9 @@ body {
     transform: translateY(-50%);
   }
 }
+*/
 
-/* section 1  */
+/* section 1  
 .back-arrow {
   width: 150px;
   height: 150px;
@@ -154,7 +217,9 @@ body {
 .back-arrow i {
   font-size: 26px;
 }
-/* first-sub-sec */
+*/
+
+/* first-sub-sec
 #first-sub-sec {
   line-height: 1.8em;
   margin-top: -15rem;
@@ -170,8 +235,9 @@ body {
   color: var(--border);
   font-size: 18px;
 }
+*/
 
-/*line through*/
+/*line through 
 .first-line-through {
   position: relative;
   top: 2em;
@@ -179,7 +245,9 @@ body {
   width: 80px;
   border: 1px solid var(--border);
 }
-/* second-sub-sec */
+*/
+
+/* second-sub-sec 
 #second-sub-sec {
   line-height: 1.8em;
   position: absolute;
@@ -221,8 +289,9 @@ body {
 .paragraph-center span:first-child {
   font-size: 80px;
 }
+*/
 
-/* section 2 */
+/* section 2 
 .forward-arrow {
   overflow: hidden;
   width: 150px;
@@ -236,8 +305,9 @@ body {
 .forward-arrow i {
   font-size: 26px;
 }
+*/
 
-/* sub section three*/
+/* sub section three
 #sub-section-three {
   position: relative;
   top: 5em;
@@ -252,17 +322,19 @@ body {
   color: var(--border);
   font-size: 18px;
 }
-/* second line through */
+*/
+/* second line through 
 .second-line-through {
   position: relative;
   top: 7em;
   left: 88em;
   width: 80px;
   border: 1px solid var(--border);
-
+  
 }
+*/
 
-/* sub section four */
+/* sub section four 
 #sub-section-four {
   line-height: 1.8em;
   position: absolute;
@@ -290,10 +362,10 @@ body {
   top: 18em;
   left: 55em;
 }
-
+*/
 /* section 3 */
 
-/* first rectangle */
+/* first rectangle 
 .first-rectangle {
   width: 200px;
   height: 100px;
@@ -355,8 +427,9 @@ body {
   padding-top: 0.4em;
   padding-left: 0.8em;
 }
+*/
 
-/* second rectangle */
+/* second rectangle
 .second-rectangle-2 {
   width: 750px;
   height: 100px;
@@ -371,7 +444,8 @@ body {
   height: 100px;
   padding: 1.5em 2em;
 }
-/* sec-circle-1 */
+*/
+/* sec-circle-1
 .sec-circle-1 {
   width: 50px;
   height: 50px;
@@ -381,8 +455,9 @@ body {
   font-size: 25px;
   padding: 9px 20px;
 }
+*/
 
-/* sec-circle-2 */
+/* sec-circle-2 
 .sec-circle-2 {
   width: 50px;
   height: 50px;
@@ -395,7 +470,8 @@ body {
   font-size: 25px;
   padding: 9px 20px;
 }
-/* sec-circle-3 */
+*/
+/* sec-circle-3 
 .sec-circle-3 {
   width: 50px;
   height: 50px;
@@ -414,8 +490,9 @@ body {
   color: var(--text-color);
   cursor: pointer;
 }
+*/
 
-/* sec-rec-text */
+/* sec-rec-text 
 .sec-rec-text {
   width: 400px;
   height: 50px;
@@ -425,10 +502,11 @@ body {
   margin-left: 10.5em;
   font-family: var(--family);
   letter-spacing: 1px;
-  /* line-height: 1px; */
 }
+*/
+/* line-height: 1px; */
 
-/* third rectangle */
+/* third rectangle
 .third-rectangle {
   width: 200px;
   height: 100px;
@@ -485,7 +563,8 @@ body {
   background-color: var(--new-orange);
   cursor: pointer;
 }
-/* section of pictures */
+*/
+/* section of pictures 
 .container-pics {
   width: 300px;
   height: 100px;
@@ -528,7 +607,7 @@ body {
 }
 /* end of section of pictures */
 
-/* container 2 */
+/* container 2 
 .container-2 {
   margin-top: 15em;
   margin-left: 13em;
@@ -570,3 +649,5 @@ body {
   font-size: 50px;
   width: 1300px;
 }
+
+*/
