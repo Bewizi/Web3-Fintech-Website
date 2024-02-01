@@ -18,6 +18,12 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+}
+
 body {
   background-color: var(--background-color);
   font-family: var(--family);
@@ -25,6 +31,12 @@ body {
   overflow-x: hidden;
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+/* header */
 .header {
   max-width: 75rem;
   margin: auto;
@@ -32,6 +44,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+/* nav */
 .nav-link {
   display: flex;
   justify-content: center;
@@ -75,11 +88,39 @@ body {
 .date-month {
   padding: 0.45rem 2rem;
 }
+/* login */
 .login {
   display: flex;
   padding: 0.45rem 1.5rem;
   justify-content: center;
   align-items: center;
+}
+/* arrow icons */
+.arrow {
+  border: 1px solid #f7f7f7;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/* line */
+.line {
+  width: 50px;
+  height: 1px;
+  background-color: #545454;
+  margin: 1.5rem 0;
+}
+
+/* total-size*/
+.total-num span,
+.market-num span {
+  display: block;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.total-num p,
+.market-num p {
+  color: #545454;
+  font-size: 0.85rem;
 }
 
 /* .container {
