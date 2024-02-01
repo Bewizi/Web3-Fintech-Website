@@ -192,3 +192,39 @@
 .images .northeast-arrow {
   left: 1rem;
 }
+
+/*about section  */
+.about-header {
+  background-color: #dbeded;
+  color: #313535;
+  padding: 0.25rem 5rem;
+  border-radius: 5px;
+}
+
+.about-header h3 {
+  font-weight: 400;
+}
+
+.about-text {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.add {
+  background-color: #fd532f;
+  color: #0f0f0f;
+  padding: 0.6rem 0.6rem;
+  border-radius: 10px;
+}
+.about-network {
+  background-color: #fd532f;
+  color: #0f0f0f;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.close_fullscreen {
+  position: relative;
+  top: 0.5rem;
+}
