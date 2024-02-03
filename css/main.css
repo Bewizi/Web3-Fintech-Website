@@ -1,32 +1,4 @@
 /* circle */
-/* .general-circle {
-  overflow: hidden;
-}
-.circle-1 {
-  margin-left: -5em;
-  width: 650px;
-  height: 650px;
-  border-radius: 50%;
-  border: 1px solid var(--border);
-}
-.circle-2 {
-  width: 650px;
-  height: 650px;
-  border-radius: 50%;
-  background: linear-gradient(to left, #03071e, #6a040f);
-  margin-top: -40em;
-  margin-left: 35.8em;
-}
-.circle-3 {
-  margin-left: 77em;
-  margin-top: -41em;
-  width: 650px;
-  height: 650px;
-  border-radius: 50%;
-  border: 1px solid var(--border);
-} */
-
-/* circle */
 
 .general-circle {
   display: flex;
@@ -242,6 +214,64 @@
   width: 20rem;
   height: 20rem;
   border-radius: 10px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+/* first circle-box */
+
+.first-circle-box::before {
+  content: "";
+  border: 1px solid #101010;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -5rem;
+  left: 2rem;
+  z-index: 1;
+}
+
+.first-circle-box span {
+  font-size: 10rem;
+  color: #101010;
+  position: absolute;
+  top: -3rem;
+  left: 5rem;
+  animation: spin 10s linear infinite;
+}
+
+/* middle circle-box */
+.middle-circle-box::before {
+  content: "";
+  border: 1px solid #c5d6d6;
+  width: 8.5rem;
+  height: 8.5rem;
+  position: absolute;
+  border-radius: 50%;
+  top: calc(40% - 5rem);
+  left: calc(50% - 5rem);
+  animation: spinAndColorChange 10s linear infinite;
+}
+
+.middle-circle-box span {
+  font-size: 3rem;
+  color: #fd532f;
+  position: absolute;
+  top: calc(38.5% - 2rem);
+  left: calc(65.5% - 5rem);
+  animation: spin 10s linear infinite;
+}
+
+.middle-circle-box::after {
+  content: "Scam detected";
+  position: absolute;
+  color: #fd532f;
+  border: 1px solid #c5d6d6;
+  padding: 1.2rem 1.6rem;
+  border-radius: 30px;
+  top: calc(75% - 2rem);
+  left: calc(50% - 5rem);
 }
 
 .box.box2 {
@@ -267,4 +297,54 @@
   color: #f7f7f7;
   border-radius: 50%;
   padding: 0.5rem;
+}
+
+.boxes-text {
+  color: #545454;
+  width: 80%;
+  margin-top: 0.5rem;
+  line-height: 1.3;
+}
+
+.boxes-header {
+  font-size: 1.5rem;
+}
+
+/* investors and network  */
+.investors-header {
+  margin-top: 1rem;
+  font-size: 2.8rem;
+}
+.investors-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  margin-top: 3rem;
+}
+
+.network-logo {
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid #474747;
+  border-radius: 50%;
+  position: relative;
+}
+
+.logo-icon {
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 0 0 0;
+}
+
+.north-east {
+  /* background-color: #101010; */
+  /* transform: rotate(45deg); */
+  /* position: absolute;
+  font-size: 1rem; */
+}
+.network-logo::before {
+  content: "";
 }

@@ -13,6 +13,8 @@
     <!-- styling of the page -->
     <link rel="stylesheet" href="/css/index.css" />
     <link rel="stylesheet" href="/css/main.css" />
+    <!-- animation -->
+    <link rel="stylesheet" href="/css/animation.css" />
     <title>Web3 Fintech Website</title>
   </head>
   <body>
@@ -32,12 +34,7 @@
         </ul>
       </nav>
       <!-- date -->
-      <div class="date-month">
-        <!-- <span>Friday</span>
-          <span>June</span>
-          <span>16,</span>
-          <span>2023</span> -->
-      </div>
+      <div class="date-month"></div>
       <div class="login">
         Log in <span class="material-symbols-outlined"> arrow_right </span>
       </div>
@@ -66,7 +63,7 @@
               and <span><br /># fintech</span> product
             </h1>
             <!-- bend arrow up -->
-            <div class="arrow north-east">
+            <div class="arrow">
               <span class="material-symbols-outlined"> north_east </span>
             </div>
           </section>
@@ -81,6 +78,7 @@
           </div>
           <!-- size and transactions -->
           <div>
+            <!-- left circle -->
             <div class="total-size">
               <div class="total-num">
                 <span>93m+</span>
@@ -93,6 +91,7 @@
               </div>
             </div>
             <!-- awards and transaction -->
+            <!-- right circle -->
             <div class="award-trans">
               <div class="total-num">
                 <span>1k+</span>
@@ -188,144 +187,97 @@
           <div class="boxes">
             <!-- left-box -->
             <div>
-              <div class="box"></div>
-              <h3>helle</h3>
+              <div class="box first-circle-box">
+                <span class="material-symbols-outlined">
+                  close_fullscreen
+                </span>
+              </div>
+              <h3 class="boxes-header">Constant monitoring</h3>
+              <p class="boxes-text">
+                Monitor domains, website,app stores and other
+              </p>
             </div>
             <!-- center box -->
             <div>
+              <!-- a rectangle at the top of the second box -->
               <div class="box box2">
                 <div class="box-text">
                   <p>SHARE IT</p>
                   <span class="material-symbols-outlined"> north_east </span>
                 </div>
               </div>
-              <div class="box"></div>
+              <!-- middle box -->
+              <div class="box middle-circle-box">
+                <span class="material-symbols-outlined spin">
+                  close_fullscreen
+                </span>
+              </div>
+              <h3 class="boxes-header">AI-based detection</h3>
+              <p class="boxes-text">
+                Out of the box detection for phishing,<br />
+                brand infrigement, scams and typosquat attack
+              </p>
             </div>
-            <div class="box"></div>
+            <!-- right box -->
+            <div>
+              <div class="box"></div>
+              <h3 class="boxes-header">Automatic triage</h3>
+              <p class="boxes-text">
+                Neutralize threats without humans intervention
+              </p>
+            </div>
           </div>
+        </div>
+      </section>
+      <!-- invest and network section -->
+      <section id="investors">
+        <div class="container">
+          <!--  -->
+          <div class="header-content">
+            02
+            <div class="about-header">
+              <h3>
+                Investors of
+                <span class="material-symbols-outlined">
+                  close_fullscreen
+                </span>
+                Network
+              </h3>
+            </div>
+          </div>
+          <!--  -->
+          <h3 class="investors-header">Our Investors of Network 💥 project</h3>
+          <!-- list of investors -->
+          <div class="investors-container">
+            <div class="network-logo">
+              <span class="material-symbols-outlined logo-icon"> polymer </span>
+
+              <span class="material-symbols-outlined north-east">
+                north_east
+              </span>
+            </div>
+            <div class="network-logo">
+              <span class="material-symbols-outlined logo-icon">
+                flutter_dash
+              </span>
+            </div>
+            <div class="network-logo">
+              <span class="material-symbols-outlined logo-icon"> flutter </span>
+            </div>
+            <div class="network-logo">
+              <span class="material-symbols-outlined logo-icon"> android </span>
+            </div>
+            <div class="network-logo">
+              <span class="material-symbols-outlined logo-icon">
+                crowdsource
+              </span>
+            </div>
+          </div>
+          <!--  -->
         </div>
       </section>
     </main>
 
-    <!-- first paragraph -->
-    <!-- <div class="text-AI">
-        <p>
-          AI-powered system suggests personalized content based on user
-          preferences
-        </p>
-      </div> -->
-    <!-- section 1 -->
-    <!-- <div class="back-arrow">
-        <i class="fa-solid fa-arrow-left"></i>
-      </div> -->
-    <!-- sub section-1 -->
-    <!-- <div class="num-text">
-        <div id="first-sub-sec">
-          <span>93m+</span>
-          <p>Total locked</p>
-        </div> -->
-    <!-- sub section 2 -->
-    <!-- <div id="second-sub-sec">
-          <span>3.2b</span>
-          <p>Market size</p>
-        </div>
-      </div> -->
-    <!-- first line through -->
-    <!-- <div class="first-line-through"></div> -->
-
-    <!-- Text Center -->
-    <!-- <div class="text-center">
-        <div class="paragraph-center">
-          <p>
-            Next level <span><i class="fa-solid fa-bolt"></i>crypto</span> and <span># fintech</span> product
-          </p>
-        </div>
-      </div> -->
-
-    <!-- Arrow direct -->
-    <!-- <div class="arrow-direct"></div> -->
-
-    <!-- section 2 -->
-    <!-- <div class="forward-arrow">
-        <i class="fa-solid fa-arrow-right"></i>
-      </div> -->
-
-    <!-- Sub section three -->
-    <!-- <div id="sub-section-three">
-        <span>1k+</span>
-        <p>Awards</p>
-      </div> -->
-    <!-- second line through -->
-    <!-- <div class="second-line-through"></div> -->
-    <!-- sub section four -->
-    <!-- <div id="sub-section-four">
-        <span>221k</span>
-        <p>Transactions</p>
-      </div> -->
-
-    <!-- down circle -->
-    <!-- <div class="down-circle">
-      
-      </div> -->
-
-    <!-- section 3 -->
-    <!-- first rectangle -->
-    <!-- <div class="first-rectangle">
-        <div class="rectangle-circle-1">
-          <div class="first-circle">1</div>
-          <div class="second-circle">2</div>
-          <div class="third-circle">3</div>
-        </div>
-      </div> -->
-
-    <!-- second rectangle -->
-    <!-- <div class="second-rectangle-2">
-        <div class="rectangle-circle-2">
-          <div class="sec-circle-1">1</div>
-          <div class="sec-circle-2">2</div>
-          <div class="sec-circle-3">3</div>
-        </div>
-        <div class="sec-rec-text">
-          <p>
-            The logo of the largest bubble company has become our flag in the
-            against lies!
-          </p>
-        </div>
-      </div> -->
-
-    <!-- third rectangle -->
-    <!-- <div class="third-rectangle">
-        <div class="rectangle-circle-3">
-          <div class="third-circle-1"><p>1</p></div>
-          <div class="third-circle-2"><p>2</p></div>
-          <div class="third-circle-3"><p>3</p></div>
-        </div>
-      </div> -->
-    <!-- section of pictures -->
-    <!-- <div class="container-pics">
-        <div class="pictures">
-          <div class="picture-one"></div>
-          <div class="picture-two"></div>
-          <div class="picture-three"></div>
-        </div>
-      </div>
-    </div> -->
-    <!-- container two -->
-    <!-- <div class="container-2">
-      <div class="about">
-        <span>01</span>
-        <p>About Network</p>
-      </div>
-      <div class="about-page">
-        <p>Our team <span>+</span> has been creating <i class="fa-solid fa-bolt"></i> a unique and powerful crypto and fintech product for <span>Network</span> 5 years. </p>
-        <p>A team of 20+ 😁 people</p>
-      </div>
-    </div> -->
-    <!-- container three -->
-    <!-- <div class="container-3">
-      <div class="box-1"></div>
-    -->
     <script src="main.js"></script>
   </body>
 </html>
-<!-- <script src="./main.js"></script> -->

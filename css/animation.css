@@ -1,0 +1,22 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinAndColorChange {
+  0% {
+    transform: rotate(0deg);
+    border: 2px solid #3498db; /* Initial color */
+  }
+  50% {
+    border: 2px solid #e74c3c; /* Color halfway through the animation */
+  }
+  100% {
+    transform: rotate(360deg);
+    border: 2px solid #3498db; /* Final color */
+  }
+}
