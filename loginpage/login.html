@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- remix icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <!-- Login Form -->
+    <form action="" id="form" class="form">
+      <div class="inputs">
+        <label for="email">Email:</label>
+        <div class="input_field">
+          <i class="ri-mail-fill mail-icon"></i>
+          <input type="email" name="email" id="email" required />
+          <i class="ri-check-line check-icon"></i>
+          <i class="ri-information-fill info-icon"></i>
+        </div>
+
+        <label for="password" class="password">Password:</label>
+        <div class="input_field_password">
+          <i class="ri-lock-password-fill password-lock"></i>
+          <input type="password" name="password" id="password" required />
+          <i class="ri-check-line check-icon-password"></i>
+          <i class="ri-information-fill info-icon-password"></i>
+        </div>
+
+        <div>
+          <button type="submit" class="btn">Login</button>
+        </div>
+      </div>
+    </form>
+    <script src="/loginpage/app.js"></script>
+  </body>
+</html>
