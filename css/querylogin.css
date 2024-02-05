@@ -1,0 +1,6 @@
+@media (max-width: 500px) {
+  .form {
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
