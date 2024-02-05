@@ -25,7 +25,7 @@ document.querySelector("#form").addEventListener("submit", (e) => {
     userPassword === loginDetails.password
   ) {
     console.log("Correct login details");
-    // window.location.href = "http://127.0.0.1:61291/";
+    window.location.href = "web3-fintech.html";
     // showSuccessMessage();
     checkIcon.style.color = "#4ade80";
     checkIcon.style.display = "block";
