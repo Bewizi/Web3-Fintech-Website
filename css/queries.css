@@ -1,6 +1,148 @@
-@media (max-width: 768px) {
+@media (max-width: 500px) {
+  /* header */
+  .header {
+    padding: 0.5rem;
+  }
+  .network {
+    padding: 0.25rem 2rem;
+  }
+
+  .date-month {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+  /* hero section */
+  .general-circle {
+    padding: 0 2%;
+  }
+
+  .circle {
+    height: 25rem;
+  }
+
   .circle:first-child,
   .circle:nth-child(3) {
     display: none;
+  }
+
+  .header-text {
+    top: 23.5%;
+  }
+
+  .header-text p {
+    font-size: 0.65rem;
+  }
+
+  .hero-header {
+    font-size: 2.4rem;
+  }
+
+  .arrow span {
+    font-size: 1rem;
+  }
+
+  .line {
+    margin: 0.85rem 0;
+  }
+
+  .arrow_back,
+  .arrow_forward {
+    top: 28rem;
+  }
+
+  .total-size {
+    top: 100%;
+    left: 4.95rem;
+  }
+
+  .award-trans {
+    top: 100%;
+    right: 2.95rem;
+  }
+
+  .total-size span,
+  .award-trans span {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  /* call to action */
+
+  .rectangle-section {
+    padding: 0 50%;
+    /* margin-left: 15rem; */
+    width: 4rem;
+    gap: 5rem;
+    flex-direction: column;
+  }
+
+  .small-circle {
+    display: none;
+  }
+
+  .small-circle p {
+    margin-top: 0.2rem;
+  }
+
+  .small-circles {
+    display: none;
+  }
+
+  .circle-content {
+    display: block;
+    padding: 1rem 1rem;
+  }
+
+  .second-circle {
+    left: 0;
+  }
+  .description {
+    font-size: 0.85rem;
+    width: 100%;
+    white-space: nowrap;
+    margin-left: 0;
+  }
+
+  .northeast-arrow {
+    left: 0;
+    font-size: 0.5rem;
+  }
+  /* about section */
+  .container {
+    padding: 0 5%;
+  }
+  .about-header {
+    padding: 0.25rem 3rem;
+  }
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .add {
+    padding: 0.2rem 0.2rem;
+  }
+  .about-network {
+    padding: 0.2rem 0.6rem;
+  }
+
+  /* boxes */
+  .boxes {
+    flex-direction: column;
+  }
+
+  .box:nth-child(1) {
+    margin-top: 5rem;
+  }
+
+  /* investors and network  */
+  .investors-header {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .investors-container {
+    flex-wrap: wrap;
   }
 }
