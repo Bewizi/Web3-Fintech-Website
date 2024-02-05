@@ -68,6 +68,7 @@ input[type="password"] {
   font-size: 1.2rem;
 }
 
+/* email icon section */
 .check-icon,
 .info-icon {
   position: absolute;
@@ -79,6 +80,7 @@ input[type="password"] {
   display: none;
 }
 
+/* password icon section */
 .check-icon-password,
 .info-icon-password {
   position: absolute;
@@ -89,6 +91,7 @@ input[type="password"] {
   z-index: 1;
   display: none;
 }
+/* submit button */
 button {
   background: none;
   border: none;

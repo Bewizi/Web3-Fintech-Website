@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .circle:first-child,
+  .circle:nth-child(3) {
+    display: none;
+  }
+}

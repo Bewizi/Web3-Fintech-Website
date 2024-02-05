@@ -1,6 +1,18 @@
 @media (max-width: 500px) {
   .form {
-    width: 95%;
+    width: 100%;
     margin: 1rem auto;
+  }
+  .check-icon,
+  .info-icon {
+    right: -0.25rem;
+    font-size: 1.5rem;
+    transform: translate(100%, -2.25rem);
+  }
+  .check-icon-password,
+  .info-icon-password {
+    right: -0.25rem;
+    font-size: 1.5rem;
+    transform: translate(100%, -4.25rem);
   }
 }

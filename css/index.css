@@ -100,11 +100,12 @@ body {
   padding: 0.45rem 2rem;
 }
 /* login */
-.login {
+.logout {
   display: flex;
   padding: 0.45rem 1.5rem;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 /* arrow icons */
 .arrow {

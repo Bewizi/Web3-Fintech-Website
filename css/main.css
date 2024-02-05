@@ -319,7 +319,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
+  gap: 1rem;
   margin-top: 3rem;
 }
 
@@ -329,6 +329,7 @@
   border: 1px solid #474747;
   border-radius: 50%;
   position: relative;
+  transition: all 0.5s ease-in-out;
 }
 
 .logo-icon {
@@ -339,12 +340,27 @@
   padding: 3.5rem 0 0 0;
 }
 
-.north-east {
-  /* background-color: #101010; */
-  /* transform: rotate(45deg); */
-  /* position: absolute;
-  font-size: 1rem; */
+.network-logo:hover {
+  transform: scale(1.1);
+  background-color: #fd532f;
+  border: none;
 }
-.network-logo::before {
-  content: "";
+.logo-icon:hover {
+  color: #161616;
+}
+
+.north-east-icon {
+  border: 1px solid #474747;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  position: absolute;
+  right: 0;
+  display: none;
+  background-color: #161616;
+  transition: all 0.5s ease-in-out;
+}
+
+.network-logo:hover .north-east-icon {
+  display: block;
 }

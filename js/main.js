@@ -1,15 +1,5 @@
 "use strict";
 
-// const dateAndMonth = document.querySelector(".date-month");
-// const specificDate = new Date("2024-01-03");
-// const formattedDate = specificDate.toLocaleDateString("en-US", {
-//   weekday: "long",
-//   year: "numeric",
-//   month: "long",
-//   day: "numeric",
-// });
-// dateAndMonth.textContent = formattedDate;
-
 function updateDate() {
   const westAfricaTimezone = "Africa/Lagos"; // Set the timezone for West Africa
 
@@ -30,3 +20,10 @@ updateDate();
 
 // Set up an interval to update the date every day
 setInterval(updateDate, 24 * 60 * 60 * 1000);
+
+// Click to go back to the login page
+const logout = document
+  .querySelector(".logout")
+  .addEventListener("click", function () {
+    window.location.href = "index.html";
+  });
