@@ -71,6 +71,8 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  position: relative;
+  border-radius: 10px;
 }
 .nav-link {
   display: flex;
@@ -124,6 +126,20 @@ main {
   align-items: center;
   cursor: pointer;
 }
+
+/* menu bar */
+.menubar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: none;
+}
+
+.closebar {
+  display: none;
+}
+
 /* arrow icons */
 .arrow {
   border: 1px solid #f7f7f7;

@@ -1,5 +1,24 @@
 "use strict";
 
+const openMenu = document.querySelector(".menu");
+const closeMenu = document.querySelector(".closebar");
+const navList = document.querySelector(".list");
+
+openMenu.addEventListener("click", () => {
+  closeMenu.style.display = "block";
+  openMenu.style.display = "none";
+  navList.style.display = "block";
+  navList.classList.add("show");
+});
+
+closeMenu.addEventListener("click", () => {
+  closeMenu.style.display = "none";
+  openMenu.style.display = "block";
+  navList.style.display = "none";
+  navList.classList.remove("show");
+});
+
+// Update of [Month,Date,Day]
 function updateDate() {
   const westAfricaTimezone = "Africa/Lagos"; // Set the timezone for West Africa
 

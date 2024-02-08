@@ -4,19 +4,51 @@
     /* position: fixed;
     top: 0; */
     left: 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
   }
   .network {
     font-size: 0.5rem;
     padding: 0.25rem 1.2rem;
   }
 
-  .date-month {
-    display: none;
+  /* nav */
+  nav {
+    position: relative;
+    width: 100%;
   }
   .list {
-    display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 7.2%;
+    background-color: #21212198;
+    width: 60%;
+    height: calc(52vh - 3.75rem);
+    transition: all 0.5s ease-in-out;
+    /* z-index: -1; */
   }
+
+  .nav-link {
+    background: none;
+    flex-direction: column;
+  }
+
+  .list .show {
+    left: 50%;
+  }
+
+  .date-month {
+    font-size: 0.75rem;
+    padding: 0.45rem 2rem;
+    border: none;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  .menubar {
+    display: block;
+  }
+
   /* hero section */
   .general-circle {
     padding: 0 2%;
