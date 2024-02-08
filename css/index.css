@@ -31,6 +31,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  margin-top: 8rem;
+}
+
 .header-content {
   display: flex;
   align-items: center;
@@ -49,13 +53,25 @@ body {
 
 /* header */
 .header {
-  max-width: 75rem;
+  max-width: 80rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 5rem;
+  width: 100%;
+  z-index: 1;
 }
 /* nav */
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 .nav-link {
   display: flex;
   justify-content: center;

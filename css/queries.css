@@ -1,10 +1,14 @@
 @media (max-width: 500px) {
   /* header */
   .header {
+    /* position: fixed;
+    top: 0; */
+    left: 0.5rem;
     padding: 0.5rem;
   }
   .network {
-    padding: 0.25rem 2rem;
+    font-size: 0.5rem;
+    padding: 0.25rem 1.2rem;
   }
 
   .date-month {
