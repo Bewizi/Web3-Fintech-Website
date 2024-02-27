@@ -20,7 +20,8 @@
     flex-direction: column;
     position: fixed;
     left: 0;
-    top: 7.2%;
+    top: 0;
+    margin-top: 1.5rem;
     background-color: #21212198;
     width: 60%;
     height: calc(52vh - 3.75rem);
